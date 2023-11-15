@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './App.css';
 
 import smallWhiteIcon from './assets/images/small-icon.svg';
+import flyrLogo from "./assets/images/"
 
 function App() {
  return (
@@ -18,7 +19,9 @@ function App() {
     </section>
     <section>
         <nav className='left-nav'>
-            
+            <ul>
+                <img src='./assets/images/'></img></li>
+            </ul>
         </nav>
     </section>
    </main>
