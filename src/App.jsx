@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 
-import smallWhiteIcon from './assets/images/small-icon.svg';
+import Notifications from './components/Notifications';
 import flyrLogo from './assets/images/logo-black-1.svg';
 import arrowDownImage from './assets/images/arrow-dots-down.svg';
 import arrowDots from './assets/images/arrow-dots.svg';
@@ -10,50 +10,56 @@ function App() {
  return (
   <>
    <main>
-    <section className='notification text-center py-5'>
-     <a
-      className='text-2xl'
-      href='https://flyr.com/resource-hub/flyr-labs-named-best-ai-based-solution-for-transportation/'
-     >
-      FLYR Named Best AI-Based Solution for Transportation
-      <img className='ml-3 w-4 inline-block' src={smallWhiteIcon}></img>
-     </a>
-    </section>
-    <section className='nav-section'>
-     <nav className='left-nav'>
-      <ul>
-       <li>
+    <Notifications></Notifications>
+    <section className='nav-section grid grid-cols-2 w-3/5 m-auto py-4 px-2'>
+     <nav className='left-nav py-10 px-2'>
+      <ul className='flex flex-row justify-evenly'>
+       <li className='text-2xl'>
         <a href=''>
          <img src={flyrLogo}></img>
         </a>
        </li>
-       <li className='font-bold'>
-        <a href=''>Airlines</a>{' '}
+       <li className='font-bold leading-7 text-center'>
+        <a className='text-2xl' href=''>
+         Airlines
+        </a>{' '}
         <img className='inline-block' src={arrowDownImage}></img>
        </li>
        <li className='font-bold'>
-        <a href=''>Cargo</a>{' '}
+        <a className='text-2xl' href=''>
+         Cargo
+        </a>{' '}
         <img className='inline-block' src={arrowDownImage}></img>
        </li>
        <li className='font-bold'>
-        <a href=''>Hospitality</a>{' '}
+        <a className='text-2xl' href=''>
+         Hospitality
+        </a>{' '}
         <img className='inline-block' src={arrowDownImage}></img>
        </li>
       </ul>
      </nav>
-     <nav className='right-nav'>
-      <ul>
+     <nav className='right-nav '>
+      <ul className='flex flex-row gap-10'>
        <li>
-        <a href='#'>Why FLYR</a>
+        <a className='text-2xl' href='#'>
+         Why FLYR
+        </a>
        </li>
        <li>
-        <a href='#'>Resource Hub</a>
+        <a className='text-2xl' href='#'>
+         Resource Hub
+        </a>
        </li>
        <li>
-        <a href='#'>About Us</a>
+        <a className='text-2xl' href='#'>
+         About Us
+        </a>
        </li>
        <li>
-        <a href=''>Request a Demo</a>{' '}
+        <a className='text-2xl' href=''>
+         Request a Demo
+        </a>{' '}
         <img className='inline-block' src={arrowDots}></img>
        </li>
       </ul>
