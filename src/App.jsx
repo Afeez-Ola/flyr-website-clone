@@ -7,12 +7,13 @@ function App() {
  return (
   <>
    <main>
-    <section className='notification flex'>
-     <a href='https://flyr.com/resource-hub/flyr-labs-named-best-ai-based-solution-for-transportation/'>
+    <section className='notification text-center py-5'>
+     <a
+      className='text-2xl font-thin'
+      href='https://flyr.com/resource-hub/flyr-labs-named-best-ai-based-solution-for-transportation/'
+     >
       FLYR Named Best AI-Based Solution for Transportation
-      <span>
-       <img src={smallWhiteIcon}></img>
-      </span>
+      <img className='ml-3' src={smallWhiteIcon}></img>
      </a>
     </section>
    </main>

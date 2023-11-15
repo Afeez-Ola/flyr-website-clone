@@ -17,7 +17,7 @@ body {
 
 body,
 input,
-button {
+button{
   font-size: 18px;
   font-family: 'Poppins', sans-serif;
 }
@@ -29,5 +29,9 @@ button {
 .notification {
   background: var(--dark-purple);
   color: white;
-  
+
+}
+
+.notification img {
+  display: inline-block;
 }
