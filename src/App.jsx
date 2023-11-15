@@ -23,24 +23,33 @@ function App() {
         <a className='text-2xl' href=''>
          Airlines
         </a>{' '}
-        <img className='inline-block' src={arrowDownImage}></img>
+        <img
+         className='inline-block w-4 relative bottom-1'
+         src={arrowDownImage}
+        ></img>
        </li>
        <li className='font-bold'>
         <a className='text-2xl' href=''>
          Cargo
         </a>{' '}
-        <img className='inline-block' src={arrowDownImage}></img>
+        <img
+         className='inline-block w-4 relative bottom-1'
+         src={arrowDownImage}
+        ></img>
        </li>
        <li className='font-bold'>
         <a className='text-2xl' href=''>
          Hospitality
         </a>{' '}
-        <img className='inline-block' src={arrowDownImage}></img>
+        <img
+         className='inline-block w-4 relative bottom-1'
+         src={arrowDownImage}
+        ></img>
        </li>
       </ul>
      </nav>
-     <nav className='right-nav '>
-      <ul className='flex flex-row gap-10'>
+     <nav className='right-nav py-10 px-2'>
+      <ul className='flex flex-row justify-evenly'>
        <li>
         <a className='text-2xl' href='#'>
          Why FLYR
@@ -60,7 +69,7 @@ function App() {
         <a className='text-2xl' href=''>
          Request a Demo
         </a>{' '}
-        <img className='inline-block' src={arrowDots}></img>
+        <img className='inline-block w-4 relative left-2 bottom-0.5' src={arrowDots}></img>
        </li>
       </ul>
      </nav>
