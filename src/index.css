@@ -38,11 +38,3 @@ button {
   color: var(--white);
 
 }
-
-.notification img {
-  display: inline-block;
-}
-
-.left-nav li img {
-  display: inline-block;
-}

@@ -16,10 +16,10 @@ function App() {
       href='https://flyr.com/resource-hub/flyr-labs-named-best-ai-based-solution-for-transportation/'
      >
       FLYR Named Best AI-Based Solution for Transportation
-      <img className='ml-3 w-4' src={smallWhiteIcon}></img>
+      <img className='ml-3 w-4 inline-block' src={smallWhiteIcon}></img>
      </a>
     </section>
-    <section>
+    <section className='nav-section'>
      <nav className='left-nav'>
       <ul>
        <li>
@@ -27,19 +27,20 @@ function App() {
          <img src={flyrLogo}></img>
         </a>
        </li>
-       <li>
-        <a href=''>Airlines</a> <img src={arrowDownImage}></img>
+       <li className='font-bold'>
+        <a href=''>Airlines</a>{' '}
+        <img className='inline-block' src={arrowDownImage}></img>
        </li>
-       <li>
-        <a href=''>Cargo</a> <img src={arrowDownImage}></img>
+       <li className='font-bold'>
+        <a href=''>Cargo</a>{' '}
+        <img className='inline-block' src={arrowDownImage}></img>
        </li>
-       <li>
-        <a href=''>Hospitality</a> <img src={arrowDownImage}></img>
+       <li className='font-bold'>
+        <a href=''>Hospitality</a>{' '}
+        <img className='inline-block' src={arrowDownImage}></img>
        </li>
       </ul>
      </nav>
-    </section>
-    <section>
      <nav className='right-nav'>
       <ul>
        <li>
@@ -52,7 +53,8 @@ function App() {
         <a href='#'>About Us</a>
        </li>
        <li>
-        <a href=''>Request a Demo</a> <img src={arrowDots}></img>
+        <a href=''>Request a Demo</a>{' '}
+        <img className='inline-block' src={arrowDots}></img>
        </li>
       </ul>
      </nav>
