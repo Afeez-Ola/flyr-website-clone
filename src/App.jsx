@@ -4,6 +4,7 @@ import './App.css';
 import smallWhiteIcon from './assets/images/small-icon.svg';
 import flyrLogo from './assets/images/logo-black-1.svg';
 import arrowDownImage from './assets/images/arrow-dots-down.svg';
+import arrowDots from './assets/images/arrow-dots.svg';
 
 function App() {
  return (
@@ -22,7 +23,9 @@ function App() {
      <nav className='left-nav'>
       <ul>
        <li>
-        <a href=""><img src={flyrLogo}></img></a>
+        <a href=''>
+         <img src={flyrLogo}></img>
+        </a>
        </li>
        <li>
         <a href=''>Airlines</a> <img src={arrowDownImage}></img>
@@ -49,7 +52,7 @@ function App() {
         <a href='#'>About Us</a>
        </li>
        <li>
-        Hospitality <img src={arrowDownImage}></img>
+        <a href=''>Request a Demo</a> <img src={arrowDownImage}></img>
        </li>
       </ul>
      </nav>
