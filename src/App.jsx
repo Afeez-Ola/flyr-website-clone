@@ -52,7 +52,7 @@ function App() {
         <a href='#'>About Us</a>
        </li>
        <li>
-        <a href=''>Request a Demo</a> <img src={arrowDownImage}></img>
+        <a href=''>Request a Demo</a> <img src={arrowDots}></img>
        </li>
       </ul>
      </nav>
