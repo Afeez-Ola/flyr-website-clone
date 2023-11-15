@@ -2,7 +2,8 @@ import { useState } from 'react';
 import './App.css';
 
 import smallWhiteIcon from './assets/images/small-icon.svg';
-import flyrLogo from "./assets/images/"
+import flyrLogo from './assets/images/logo-black-1.svg';
+import arrowDownImage from './assets/images/arrow-dots-down.svg';
 
 function App() {
  return (
@@ -18,11 +19,40 @@ function App() {
      </a>
     </section>
     <section>
-        <nav className='left-nav'>
-            <ul>
-                <img src='./assets/images/'></img></li>
-            </ul>
-        </nav>
+     <nav className='left-nav'>
+      <ul>
+       <li>
+        <a href=""><img src={flyrLogo}></img></a>
+       </li>
+       <li>
+        <a href=''>Airlines</a> <img src={arrowDownImage}></img>
+       </li>
+       <li>
+        <a href=''>Cargo</a> <img src={arrowDownImage}></img>
+       </li>
+       <li>
+        <a href=''>Hospitality</a> <img src={arrowDownImage}></img>
+       </li>
+      </ul>
+     </nav>
+    </section>
+    <section>
+     <nav className='right-nav'>
+      <ul>
+       <li>
+        <a href='#'>Why FLYR</a>
+       </li>
+       <li>
+        <a href='#'>Resource Hub</a>
+       </li>
+       <li>
+        <a href='#'>About Us</a>
+       </li>
+       <li>
+        Hospitality <img src={arrowDownImage}></img>
+       </li>
+      </ul>
+     </nav>
     </section>
    </main>
   </>
