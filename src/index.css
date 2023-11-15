@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  --dark-purple: #4738e6;
+}
+
+body {
+  /* background: ;
+ color: ; */
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+button {
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+.notification {
+  background: var(--dark-purple);
+  color: white;
+  
+}
