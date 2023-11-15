@@ -6,18 +6,25 @@
 }
 
 #root {
-  --dark-purple: #4738e6;
+  --dark-purple: #463ae6;
+  --dark: #010101;
+  --silver: #bdbdbd;
+  --lunar-green: #434443;
+  --brown: #88827c;
+  --white: #ffffff;
+  --yellow: #fdfd18;
+  --bondi-blue: #3b9ac4;
 }
 
 body {
-  /* background: ;
- color: ; */
+  background: var(--white);
   -webkit-font-smoothing: antialiased;
+  font-weight: 300;
 }
 
 body,
 input,
-button{
+button {
   font-size: 18px;
   font-family: 'Poppins', sans-serif;
 }

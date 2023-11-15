@@ -9,7 +9,7 @@ function App() {
    <main>
     <section className='notification text-center py-5'>
      <a
-      className='text-2xl font-thin'
+      className='text-2xl'
       href='https://flyr.com/resource-hub/flyr-labs-named-best-ai-based-solution-for-transportation/'
      >
       FLYR Named Best AI-Based Solution for Transportation
