@@ -13,8 +13,13 @@ function App() {
       href='https://flyr.com/resource-hub/flyr-labs-named-best-ai-based-solution-for-transportation/'
      >
       FLYR Named Best AI-Based Solution for Transportation
-      <img className='ml-3' src={smallWhiteIcon}></img>
+      <img className='ml-3 w-4' src={smallWhiteIcon}></img>
      </a>
+    </section>
+    <section>
+        <nav className='left-nav'>
+            
+        </nav>
     </section>
    </main>
   </>
